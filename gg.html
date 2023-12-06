@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="IE=edge" >
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+<title>转 发 永久 保 存 ➪</title>
+<link rel="stylesheet" href="http://g.alicdn.com/de/prismplayer/2.11.0/skins/default/aliplayer-min.css" />
+<script type="text/javascript" charset="utf-8" src="http://g.alicdn.com/de/prismplayer/2.11.0/aliplayer-min.js"></script>
+<script>
+function leleua() {
+var sUserAgent = navigator.userAgent.toLowerCase(); 
+if(sUserAgent.match(/QQ/i) == 'qq' || location.href.indexOf("edit") > -1){}else{ 
+window.location.href = "/403.html"; 
+} 
+}
+leleua(); 
+</script>
+<style>
+    html, body{
+		height:100%;
+	}
+        html{          
+            overflow: hidden;
+        }
+        body{        
+            margin: 0;
+            padding: 0;
+        }
+        #iframepage{
+            width: 100%;
+        }
+</style>
+<body>
+<div class="prism-player" id="player-con"></div>
+<script>
+function GetRequest() {
+   const url = location.search; 
+   let theRequest = new Object();
+   if (url.indexOf("?") != -1) {
+      let str = url.substr(1);
+      strs = str.split("&");
+      for(let i = 0; i < strs.length; i ++) {
+         theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+      }
+   }
+   return theRequest;
+}
+
+
+let Request = new Object();
+Request = GetRequest();
+var url = Request['u'];
+var player = new Aliplayer({
+  "id": "player-con",
+  "source": url,
+  "width": "100%",
+  "height": "90%",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": false,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "hover",
+  "useH5Prism": true
+}, function (player) {
+    console.log("The player is created");
+  }
+);
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="prism-player" id="player-con"></div>
+<div style="text-align:center" onclick="tiao()">
+<a href="https://qm.qq.com/cgi-bin/qm/qr?k=9sWmx07PTzNnPe81eY8H8EM-SJZCo6Mb"><button role="button">点 击 加 极 品 吃 瓜 群</button></a>
+</div>
+
+  <style>
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 0, 0);
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+      overflow-y: hidden
+    }
+
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      text-decoration: none
+    }
+    button{
+			width: 90%;/*设置按钮宽度*/
+			height: 50px;/*设置按钮高度*/
+			color:white;/*字体颜色*/
+			background-color:cornflowerblue;/*按钮背景颜色*/
+			border-radius: 5px;/*让按钮变得圆滑一点*/
+			border- 0;/*消去按钮丑的边框*/
+			margin: 0;
+			outline: none;/*取消轮廓*/
+			font-family: KaiTi;/*字体设置为楷体*/
+			font-size: 17px;/*设置字体大小*/
+			text-align: center;/*字体居中*/
+			cursor: pointer;/*设置鼠标箭头手势*/
+		}
+	button:hover{/*鼠标移动时的颜色变化*/
+			background-color: cornflowerblue;
+  </style>
