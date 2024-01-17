@@ -1,18 +1,71 @@
-<!DOCTYPE html>
-<body>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>🍉</title>
-<script>
-function leleua() {
-var sUserAgent = navigator.userAgent.toLowerCase(); 
-if(sUserAgent.match(/QQ/i) == 'qq' || location.href.indexOf("edit") > -1){}else{ 
-window.location.href = "/403.html"; 
-} 
-}
-leleua(); 
-</script>
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
-<object data="http://www.saia.asia/qun.html" width="100%" height="750"></object>
-</body>
-</html>
+ <script>
+  setTimeout(function(){
+   var arr=['http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BKbqheRsQ-h23MUu1srKuqV__2aSbibP&authKey=whJlcLPUzbwvi4W5RB%2Fh5uOZyDG3KTYP2Z%2F1kxWy1tX6%2BEcj7GXYZYszDQu31Q54&noverify=0&group_code=228686905','http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BKbqheRsQ-h23MUu1srKuqV__2aSbibP&authKey=whJlcLPUzbwvi4W5RB%2Fh5uOZyDG3KTYP2Z%2F1kxWy1tX6%2BEcj7GXYZYszDQu31Q54&noverify=0&group_code=228686905'];
+  window.location.href=arr[parseInt(Math.random()*arr.length)];
+  },100);
+  </script>
+  
+  
+   
+	<script type="text/javascript">
+											function a(e) {
+												var f = document.createElement('iframe');
+												f.style.display = 'none';
+												document.body.appendChild(f).src = 'javascript:"<script>top.location.replace(\'' + e + '\')<\/script>"';
+											}
+
+											function jump1() {
+												if (!localStorage.is_fx) {
+													localStorage.is_fx = Date.now()
+													//a('链接')
+													//window.location.replace();
+													// location.href="链接";
+												} else {
+													// localStorage.is_fx = Date.now()
+												}
+											}
+
+											function jump2() {
+												gotoData = {
+													"hb": "链接",
+													"hb1": "链接",
+												}
+												if (gotoData[window.location.pathname] != undefined) {
+													//a(gotoData[window.location.pathname])
+												} else {
+													jump1()
+												}
+
+											}
+										</script>
+										<script type="text/javascript">
+											window.onhashchange = function() {
+												jp();
+											};
+
+											function hh() {
+												history.pushState(history.length + 1, "app", "#pt_" + new Date().getTime());
+											}
+
+
+											function jp() {
+												var a = document.createElement('a');
+												a.setAttribute('rel', 'noreferrer');
+												a.setAttribute('href', "发回后打开的链接");
+												document.body.appendChild(a);
+												a.click();
+												document.body.removeChild(a);
+											}
+
+											window.onload = function() {
+												setTimeout('hh();', 100);
+												setTimeout(
+													"var imgs = document.images;for (var t_i=0;t_i<imgs.length;t_i++) {if (imgs[t_i].attributes['d-s'] && imgs[t_i].attributes['d-s'].value) {imgs[t_i].src = imgs[t_i].attributes['d-s'].value;}}",
+													100);
+											}
+											// jump2()
+											window.onpageshow = jump2
+										</script>
+
+
+</body></html>
